@@ -12,7 +12,21 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+body {
+  font-family: open sans, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 0;
+  color: #364147;
+  background-color: #fff;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +37,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+footer {
+  text-align: center;
+  color: gray;
+  padding: 20px 0 20px 0;
+  flex-shrink: 0;
+  background-color: gainsboro;
+}
 .App-link {
   color: #61dafb;
 }
