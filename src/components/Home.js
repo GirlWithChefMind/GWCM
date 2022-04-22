@@ -36,7 +36,7 @@ const recipe = [
   },
   {
     id: "2",
-    image: "/2.jpg",
+    image: "2.jpg",
     title: "Ghevar",
     ingredients: [
       "FOR GHEWAR BATTER",
